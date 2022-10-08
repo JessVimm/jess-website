@@ -24,23 +24,50 @@ export default {
       to: {type: 'author'},
     },
     {
-      name: 'mainImage',
-      title: 'Main image',
-      type: 'image',
-      options: {
-        hotspot: true,
-      },
-    },
-    {
       name: 'categories',
       title: 'Categories',
       type: 'array',
       of: [{type: 'reference', to: {type: 'category'}}],
     },
     {
-      name: 'publishedAt',
-      title: 'Published at',
+      name: 'date',
+      title: 'Date',
       type: 'datetime',
+    },
+    {
+      name: 'description',
+      type: 'text',
+    },
+    {
+      name: 'postType',
+      title: 'Post Type',
+      type: 'string',
+      options: {
+        list: [
+          { value: "personal", title: "Personal project"},
+          { value: "client", title: "Client project"},
+          { value: "school", title: "School project"},
+          { value: "experimenting", title: "Experimenting"},
+          { value: "learning", title: "Learning"},
+          { value: "other", title: "Other"},
+        ],
+      },
+    },
+    {
+      name: "link",
+      type: "url",
+    },
+    {
+      name: "tags",
+      type: "array",
+      of: [
+        {
+          type: "string",
+        },
+      ],
+      options: {
+        layout: "tags",
+      },
     },
     {
       name: 'body',
@@ -53,7 +80,6 @@ export default {
     select: {
       title: 'title',
       author: 'author.name',
-      media: 'mainImage',
     },
     prepare(selection) {
       const {author} = selection

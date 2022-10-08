@@ -28,7 +28,7 @@ export default function Post() {
                     Welcome to my blog!
                 </h1>
                 <h2 className="text-lg text-purple-700 flex justify-center mb-12 canada">
-                    I write about anything I have fun doing✨🌟⭐
+                    I write about anything I have fun doing🍰🍚🍦
                 </h2>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     { postData && postData.map((post, index) => (

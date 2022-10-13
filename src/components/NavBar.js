@@ -5,56 +5,49 @@ import { SocialIcon } from "react-social-icons";
 export default function NavBar() {
     return (
         <header className="bg-purple-900">
-            <div className="container mx-auto flex justify-between">
-                <nav className="flex">
+            <div className="grid place-items-center bg-purple-900">
+                <nav>
+                    <NavLink to="/post" 
+                                className="items-center rounded px-2 text-purple-300 hover:text-white canada"
+                                activeClassName="text-white bg-purple-700"
+                    >
+                        Blog 📝 
+                    </NavLink>
                     <NavLink to="/" exact 
                         activeClassName="text-white"
-                        className="inflex-flex items-center py-6 px-3 mr-4 text-purple-100 hover:text-orange-600 text-3xl font-bold cursive tracking-widest"
-                >
+                        className="items-center text-purple-100 px-2 hover:text-orange-600 text-5xl cursive tracking-widest"
+                    >
                         Jess
                     </NavLink>
-                    <NavLink to="/post" 
-                        className="inline-flex items-center py-3 px-3 my-6 rounded text-purple-300 hover:text-white canada"
-                        activeClassName="text-white bg-purple-700"
-                    >
-                        Blog
-                    </NavLink>
                     <NavLink to="/about" 
-                        className="inline-flex items-center py-3 px-3 my-6 rounded text-purple-300 hover:text-white canada"
-                        activeClassName="text-white bg-purple-700"
+                            className="items-center rounded text-purple-300 hover:text-white canada"
+                            activeClassName="text-white bg-purple-700"
                     >
-                        About
+                        👋🏻 About
                     </NavLink>
                 </nav>
-                <div className="inline-flex py-3 px-3 my-6">
+                <div className="mt-2 mb-3">
                     <SocialIcon 
                         url="mailto:vic.mtz.med@gmail.com" 
-                        className="mr-4" 
+                        className="mx-1" 
                         target="_blank" 
-                        fgColor="#ffffff"  
-                        bgColor="#ecc94b"
-                        style={{ height: 35, width: 35 }}/>
+                        fgColor="#ffda2f" 
+                        bgColor="#44337a"
+                        style={{ height: 30, width: 30 }}/>
                     <SocialIcon 
                         url="https://github.com/JessVimm" 
-                        className="mr-4" 
+                        className="mx-1" 
                         target="_blank" 
-                        fgColor="#ffffff" 
-                        bgColor="#ecc94b"
-                        style={{ height: 35, width: 35 }}/>
+                        fgColor="#ffda2f" 
+                        bgColor="#44337a"
+                        style={{ height: 30, width: 30 }}/>
                     <SocialIcon 
                         url="https://www.linkedin.com/in/victoria-m-538918250/" 
-                        className="mr-4" 
+                        className="mx-1" 
                         target="_blank" 
-                        fgColor="#ffffff" 
-                        bgColor="#ecc94b"
-                        style={{ height: 35, width: 35 }}/>
-                    <SocialIcon 
-                        url="https://dev.to/jessvimm" 
-                        className="mr-4" 
-                        target="_blank" 
-                        fgColor="#ffffff" 
-                        bgColor="#ecc94b"
-                        style={{ height: 35, width: 35 }}/>
+                        fgColor="#ffda2f" 
+                        bgColor="#44337a"
+                        style={{ height: 30, width: 30 }}/>
                 </div>
             </div>
         </header>

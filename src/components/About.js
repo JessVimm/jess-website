@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client.js";
-import BlockContent from "@sanity/block-content-to-react";
 
 
 
@@ -28,7 +27,7 @@ export default function About() {
                         I'm {author.name}!
                     </h1>
                     <h2 className="text-lg text-purple-700 flex justify-center mb-12 canada">
-                        I like 🍵
+                        (coming soon...)
                     </h2>
             </section>
         </main>

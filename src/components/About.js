@@ -31,7 +31,7 @@ export default function About() {
                     </h2>
                     <h2 className="text-lg text-purple-700 flex justify-center mb-12 canada">
                         In July of 2021, I graduated from college. I started working for a local company for
-                        a couple of months where I created a technical manual for a software project. In 2022 I 
+                        a couple of months where I created a technical manual for a software project. In 2022, I 
                         entered Infosys as a Software Engineer to learn about backend development with Java and Angular.
                         Later, I created my own web page (this one) to share how I work with my projects, ideas and what technologies
                         I am currently learning and implementing. My interests go towards building applications from scratch, 

@@ -27,7 +27,7 @@ export default function About() {
                         Hello!
                     </h1>
                     <h2 className="text-lg text-purple-700 flex justify-center mb-12 canada">
-                        I'm {author.name}, a person with great curiosity and an eternal learner, and a dancer sometimes. 
+                        I'm {author.name}, a person with great curiosity, an eternal learner, and a dancer sometimes. 
                     </h2>
                     <h2 className="text-lg text-purple-700 flex justify-center mb-12 canada">
                         In July of 2021, I graduated from college. I started working for a local company for

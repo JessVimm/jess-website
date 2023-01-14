@@ -37,8 +37,8 @@ export default function About() {
                     <h2 className="text-lg text-purple-700 flex justify-center mb-12 canada">
                         Later, I created my own web page (this one) to share how I work with my projects, ideas and what technologies
                         I am currently learning and implementing. My interests go towards building applications from scratch, 
-                        so any tech stack is welcome for me. I find excited the entire process of an application's lifecycle, 
-                        from its birth to its production and maintainment.
+                        so any tech stack is welcome for me. I find exciting the entire process of an application's lifecycle, 
+                        from its birth to its development and deployment.
                     </h2>
                     <h2 className="text-lg text-purple-700 flex justify-center mb-12 canada">
                         In my free time I am learning Chinese, cooking, reading, dancing or hanging out with my loved ones.
